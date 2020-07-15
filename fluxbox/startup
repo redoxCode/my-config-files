@@ -1,0 +1,20 @@
+#!/bin/sh
+#
+# custom fluxbox startup-script:
+
+
+
+#nm-applet &
+#cbatticon &
+#/usr/lib/notification-daemon-1.0/notification-daemon &
+#udev-notify &
+fbsetbg -f ~/.fluxbox/backgrounds/bg.png &
+conky -c ~/.fluxbox/conky/conky.conf &
+
+
+
+
+# And last but not least we start fluxbox.
+# Because it is the last app you have to run it with ''exec'' before it.
+exec fluxbox
+

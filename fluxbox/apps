@@ -1,0 +1,12 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=xterm) (class=XTerm)
+[end]
+[app] (name=thunar) (class=Thunar) (role=Thunar-1517845087-2378778812)
+  [Dimensions]	{29% 100%}
+[end]
+[app] (name=thunar) (class=Thunar) (role=Thunar-1517845106-3399063123)
+  [Dimensions]	{45% 102%}
+[end]
